@@ -73,6 +73,10 @@
                             <a class="nav-link click-scroll" href="gallery.html">Gallery</a>
                         </li>
 
+                        <li class="nav-item"></li>
+                        <a class="nav-link click-scroll" href="volunteer.html">Volunteer</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="contact.html">Contact</a>
                         </li>
@@ -86,146 +90,101 @@
         </nav>
 
         <main>
-
-            <section class="donate-section">
-                <div class="section-overlay"></div>
+            <section  class="py-4">
                 <div class="container">
                     <div class="row">
-
-                        <div class="col-lg-6 col-12 mx-auto">
-                            <form class="custom-form donate-form" action="#" method="get" role="form">
-                                <h3 class="mb-4">Make a donation</h3>
-
-                                <div class="row">
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mb-3">Donation Frequency</h5>
-                                    </div>
-
-                                    <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyOne" checked>
-                                            
-                                            <label class="form-check-label" for="DonationFrequencyOne">
-                                                One Time
-                                            </label>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <article class="mb-5">
+                                                <figure class="mb-4">
+                                                    <img class="img-fluid" alt="background image" src="../images/services/radiology.jpg">
+                                                    <figcaption class="mt-2">
+                                                        <h3><a href="#" class="text-dark fw-bold">DONATION</a></h3>
+                                                    </figcaption>
+                                                </figure>
+            
+                                                <div>
+                                                    <p class="text-dark fs-5">
+                                                        The Baldegger Sisters have been dedicated to serving the people of Tanzania since 1921,
+                                                        marking a century of commitment with the involvement of 126 sisters in various mission
+                                                        projects. Guided by the spirituality of St. Francis of Assisi, their efforts encompass both
+                                                        social initiatives and the development of the local church.
+                                                    </p>
+                                                    <p class="text-dark fs-5">
+                                                        In 1978, Sisters Clementina Bütler and Erika Lischer established a first aid post in Rhotia,
+                                                        initially living alongside the Capuchin brothers. As their mission expanded, they built a
+                                                        mud house and later a dedicated sisters' residence. Sister Ruth Gasche joined them in 1980,
+                                                        enhancing their community efforts.
+                                                    </p>
+                                                    <p class="text-dark fs-5">
+                                                        By 1987, Sister Verona Hutter arrived to take over the health center, focusing on training
+                                                        local women as nurses and midwives. Alongside Sister Blasia Zielmann, who joined in 1988,
+                                                        they transformed the first aid post into a fully-fledged health center by 1997, which
+                                                        included inpatient services. Their dedication extended to caring for marginalized
+                                                        populations, including those with disabilities.
+                                                    </p>
+                                                    <p class="text-dark fs-5">
+                                                        The Rhotia Health Centre has consistently provided vital medical care, treating all patients
+                                                        regardless of their ability to pay. The center now serves around 20,000 patients annually,
+                                                        addressing major health issues such as malaria, tuberculosis, and maternal care. The sisters
+                                                        also established a vehicle service for patient transport, vital for timely medical
+                                                        interventions.
+                                                    </p>
+                                                    <p class="text-dark fs-5">
+                                                        In 2016, the Mahenge Sisters were invited to take over the management of the center. After
+                                                        the passing of Sister Verona in 2016 and Sister Blasia in 2022, the Mahenge Sisters
+                                                        continued the legacy of compassionate care established by their predecessors. Under the
+                                                        leadership of Sister Prisila and Sister Floriana, the center maintains its commitment to
+                                                        equitable healthcare, relying on donations and government support to serve the community
+                                                        effectively.
+                                                    </p>
+                                                    <p class="text-dark fs-5">
+                                                        The Rhotia Health Centre embodies the spirit of the Baldegger Sisters, where care,
+                                                        compassion, and community support create a safe haven for the region's most vulnerable
+                                                        populations.
+                                                    </p>
+                                                </div>
+                                            </article>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyMonthly">
-                                            
-                                            <label class="form-check-label" for="DonationFrequencyMonthly">
-                                                Monthly
-                                            </label>
+            
+                                    <!-- Start Respond Form -->
+                                    <div class="row mt-5">
+                                        <div class="col-md-8">
+                                            <div id="respond">
+                                                <h3 class="mb-4">Leave a Comment</h3>
+                                                <form action="contact.php" method="POST">  
+                                                    <div class="mb-3">
+                                                        <label for="author" class="form-label">Name <span class="text-danger">*</span></label>
+                                                        <input type="text" class="form-control" id="author" name="author" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                                        <input type="email" class="form-control" id="email" name="email" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="subject" class="form-label">Subject</label>
+                                                        <input type="text" class="form-control" id="subject" name="subject" required>
+                                                    </div>
+                                                    <div class="mb-3">
+                                                        <label for="comment" class="form-label">Message</label>
+                                                        <textarea class="form-control" id="comment" name="comment" rows="6" required></textarea>
+                                                    </div>
+                                                    <div>
+                                                        <button type="submit" class="btn btn-outline-success">Send Message</button>
+                                                    </div>
+                                                </form>
+                                            </div>
                                         </div>
                                     </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-2 mb-3">Select an amount</h5>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                $10
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                $15
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                            <label class="form-check-label" for="flexRadioDefault3">
-                                                $20
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                                            <label class="form-check-label" for="flexRadioDefault4">
-                                                $30
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                                            <label class="form-check-label" for="flexRadioDefault5">
-                                                $45
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-                                            <label class="form-check-label" for="flexRadioDefault6">
-                                                $50
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 form-check-group">
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon1">$</span>
-                                            
-                                            <input type="text" class="form-control" placeholder="Custom amount" aria-label="Username" aria-describedby="basic-addon1">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-1">Personal Info</h5>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mt-2">
-                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="Jack Doe" required>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mt-2">
-                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-4 pt-1">Choose Payment</h5>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12 mt-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault9">
-                                            <label class="form-check-label" for="flexRadioDefault9">
-                                                <i class="bi-credit-card custom-icon ms-1"></i>
-                                                Debit or Credit card
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault10">
-                                            <label class="form-check-label" for="flexRadioDefault10">
-                                                <i class="bi-paypal custom-icon ms-1"></i>
-                                                Paypal
-                                            </label>
-                                        </div>
-
-                                        <button type="submit" class="form-control mt-4">Submit Donation</button>
-                                    </div>
+                                    <!-- End Respond Form -->
+            
                                 </div>
-                            </form>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </section>
@@ -248,7 +207,7 @@
 
                             <li class="footer-menu-item"><a href="gallery.html" class="footer-menu-link">Gallery</a></li>
 
-                            <li class="footer-menu-item"><a href="donate.html" class="footer-menu-link">Partner with us</a></li>
+                            <li class="footer-menu-item"><a href="volunteer.html" class="footer-menu-link">Partner with us</a></li>
                         </ul>
                     </div>
 
